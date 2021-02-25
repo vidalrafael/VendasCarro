@@ -1,0 +1,468 @@
+@media only screen and  (max-width: 1227px){
+    .redessociais{
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+}
+
+@media only screen and  (max-width: 768px){
+    .resp{
+        padding: 5px;
+    }
+
+    .textBanner{
+        font-size: 30px !important;
+    }
+
+    .alinhaCep{           
+        flex-wrap: wrap !important;        
+    }
+
+    .inputboxceplink{
+        margin-top: -15px !important;
+        margin-bottom: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .uf{
+        min-width: 100px;
+    }
+
+    .logoCadastro{
+        max-height: 100px;
+    }
+
+    .titulodepoimento{
+        font-size: 30px !important;
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        width: 100%;
+        max-width: 100% !important;
+        flex: 0 0 100%;
+    }
+
+    .rowMarcas{
+        justify-content: center;
+    }
+
+    .marginMarcas{
+        margin-top: -50px;
+    }
+
+    .carousel-inner {
+        margin-bottom: 25px;
+    }
+
+    .textologo{
+        font-size: 1.5rem !important;
+    }
+    
+    nav{
+        min-height: 80px;
+    }
+
+    .navbar-collapse{
+        background-color: #252525;
+    }
+
+    .desktop{
+        display: none !important;
+    }
+
+    .mobile{
+        display: flex !important;
+    }
+
+    .dropdown-menu{
+        position: relative !important; 
+        width: 100% !important;       
+    }
+
+    .dropdown{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav{
+        justify-content: center !important;
+    }
+
+    .nav-item{
+        width: 110px !important;
+    }
+
+    .posicao{
+        padding: 0 !important;
+    }
+
+    .posicaoDashboard{
+        min-height: calc(100vh - 54px - 74px) !important;
+    }
+
+    .colunaPainel{
+        margin-left: 0px !important;
+        width: 100% !important;    
+    }
+
+
+
+
+}
+
+@media only screen and  (max-width: 910px){
+    nav{
+        position: relative !important;
+        z-index: 0 !important;
+    }
+
+    header{  
+        padding-top: 0rem !important;
+        position: relative;
+        margin-top: -0.25rem;
+    }
+
+    .redessociais{
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    .logofooter{
+        width: 180px;
+        height: 100px;
+    }
+
+    .resp{
+        flex: auto;
+        max-width: 100%;
+    }
+
+    .inputbox{
+        min-width: 100% !important;
+    }
+
+}
+
+/* fim media */
+
+html{
+    overflow-x: hidden;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+
+.row{
+    margin: 0;
+}
+
+header{    
+    color: white;
+    padding-top: 4.55rem;   
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #252525;
+    margin-top: -4px;
+    display: block;
+}
+
+.logonav {
+    width: 100%;
+    min-width: 85px;
+    height: 50px;
+}
+
+ul{
+    padding: 15px;
+}
+
+.alinhaStart{
+    justify-content: start;
+}
+
+.linha-vertical {
+    height: 20px;
+    border-left: 2px solid white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-item{
+    width: 100px;
+    text-align: center;
+    color: #686464;
+}
+
+.nav-link{
+    color: #969191;
+}
+.nav-link:hover{
+    color: #D1AE4D;
+}
+
+.cadastro{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dropdown-menu{
+    width: 300px;
+    background-color: #252525f6;
+    color: #D1AE4D;
+    box-shadow: 0px 0px 5px 3px #D1AE4D;
+}
+
+.link{
+    color: #D1AE4D !important;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn-entrar{
+    width: 150px;
+    background-color: #D1AE4D;
+    border-color: #D1AE4D;
+    color: #000000;
+}
+
+.btn-entrar:hover{
+    background-color: #7c5f0d;
+    border-color: #7c5f0d;
+    color: #e6dfdf;
+}
+
+.align-right{
+    text-align: end;
+    color: #212529;
+    font-size: 13px;
+}
+
+.imgSlide{
+    max-height: 600px;
+}
+
+.vidalhypercars {
+    width: 100%;
+    background: #d1ae4d9a;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    border: 0.1rem solid white;
+    border-right: 0;
+}
+
+.textologo{
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 8px;
+}
+
+.align-vertical{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.subtitle{
+    color: #000000;
+    font-weight: 70 !important;
+    font-size: 2rem;
+}
+
+.subtitle1{
+    color: #fff;
+    font-weight: 70 !important;
+    font-size: 2rem;
+}
+
+.desenhoCarro{
+    width: 300px;
+    min-width: 200px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.capitular::first-letter{
+    color: #D1AE4D;
+    font-size: 50px;
+}
+
+.marcas{
+    width: 100%;
+    background-color: #252525;
+    color: #838080;
+    margin-bottom: 30px;
+}
+
+.key{
+    list-style-image: url("/img/key.png");
+}
+
+.key2{
+    font-size: 20px;
+    font-weight: 10;
+}
+
+.key2:hover{
+    color: #D1AE4D;
+}
+
+.logoMarcas{
+    max-width: 400px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;    
+}
+
+.ferrari{
+    max-width: 300px;
+    margin-top: 3vh;
+}
+
+.lamborghini{
+    max-width: 300px;
+    margin-top: 3vh;
+}
+
+.bmw{
+    max-width: 450px;
+    max-height: 300px;
+    margin-top: 0vh;
+}
+
+.koenigsegg{
+    max-width: 450px;
+    height: 150px;
+    margin-top: 9vh;
+}
+
+.maclaren{
+    max-width: 550px;
+    max-height: 300px;
+}
+
+.slideMarcas{
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centerAlign{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.mCards{
+    margin: 20px;
+}
+
+.direcao{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulodepoimento{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #D1AE4D;
+    font-size: 50px;
+    font-weight: 50;
+}
+
+.card-title{
+    color: #D1AE4D;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.card-body{
+    background-color: #252525;
+}
+
+.card-text{
+    color: white;
+    font-weight: 1;
+    font-size: 18px;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.kylie{
+    height: 191px;
+}
+
+footer{
+    background-color: #252525;
+    color: #969191;
+    height: auto;
+}
+
+.flexfooter{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.logofooter{
+    width: 180px;
+    margin: 20px 10px 20px 20px;
+}
+
+.redessociais{
+    width: 21rem;
+    background-color: #686666;
+    margin-left: 75px;
+    padding: 20px;
+}
+
+.redessociaistext{
+    color: #D1AE4D;
+    font-weight: 15;
+    font-size: 25px;
+}
+
+.btn-gold{
+    background-color: #d3b04b;
+    color: rgb(44, 35, 35);
+}
+
+.btn-gold:hover{
+background-color: #7e692a;
+color:#fff;
+}
+
+.posicaoDashboard{
+    width: 100%;
+    min-height: calc(100vh - 62px);
+}
+
+.painel{
+background-color: #252525;
+max-width: 100vw;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.colunaPainel{
+margin-left: 250px;
+width: calc(100vw - 250px)
+}
+

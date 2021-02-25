@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "usuarios"
+		},
+		{
+			"name": "estoque",
+			"path": "estoque"
+		},
+		{
+			"name": "modelos",
+			"path": "modelos"
+		},
+		{
+			"name": "venda",
+			"path": "venda"
+		},
+		{
+			"name": "email",
+			"path": "email"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
